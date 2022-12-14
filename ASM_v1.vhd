@@ -14,23 +14,24 @@ CLK, E: in std_logic;
 Q: out std_logic_vector(3 downto 0));
 end component;
 
-signal x1, x0: std_logic;
+signal x: std_logic_vector(3 downto 0);
 
 begin
 
 reg: Registry port map(
-D(3 downto 2) => "00",
-D(1 downto 0) => x1 & x0,
+D(3) => '0',
+D(2) => '0',
+D(1) => x(1),
+D(0) => x(0),
 CLK => CLK,
 E => '1',
-Q(1) => x1,
-Q(0) => x0);
+Q => x);
 
-RDY <= x1 and not x0;
-S <= not x1 and x0;
-CE <= not x1 and x0;
-CLR <= (not x1 and not x0) or (x1 and x0);
-R <= (not x1 and not x0) or (x1 and x0);
-EDS <= (not x1 and not x0) or (x1 and x0);
-EDD <= not x1 or x0;
+RDY <= x(1) and not x(0);
+S <= not x(1) and x(0);
+CE <= not x(1) and x(0);
+CLR <= (not x(1) and not x(0)) or (x(1) and x(0));
+R <= (not x(1) and not x(0)) or (x(1) and x(0));
+EDS <= (not x(1) and not x(0)) or (x(1) and x(0));
+EDD <= not x(1) or x(0);
 end arc_asm;

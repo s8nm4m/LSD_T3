@@ -53,7 +53,7 @@ S => PL,
 Y => outmux);
 
 reg: Registry port map(
-E => CE,
+E => '1',
 D => outmux,
 CLK => CLK,
 Q => outreg);

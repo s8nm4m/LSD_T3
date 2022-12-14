@@ -1,6 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+
+--DONE!
 entity Data_Path is
 port(A, B: in std_logic_vector(3 downto 0);
 S, E1, E2, RST, CE, Clear, CLK: in std_logic;
