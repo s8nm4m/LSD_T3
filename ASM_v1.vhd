@@ -14,24 +14,37 @@ CLK, E: in std_logic;
 Q: out std_logic_vector(3 downto 0));
 end component;
 
-signal x: std_logic_vector(3 downto 0);
+component MUX2x1
+port(A, B: in std_logic_vector(3 downto 0);
+S: in std_logic;
+Y: out std_logic_vector(3 downto 0));
+end component;
+
+signal x, muxD, nextD: std_logic_vector(3 downto 0);
 
 begin
 
 reg: Registry port map(
-D(3) => '0',
-D(2) => '0',
-D(1) => x(1),
-D(0) => x(0),
+D => nextD,
 CLK => CLK,
 E => '1',
 Q => x);
 
 RDY <= x(1) and not x(0);
-S <= not x(1) and x(0);
-CE <= not x(1) and x(0);
-CLR <= (not x(1) and not x(0)) or (x(1) and x(0));
-R <= (not x(1) and not x(0)) or (x(1) and x(0));
-EDS <= (not x(1) and not x(0)) or (x(1) and x(0));
-EDD <= not x(1) or x(0);
+S <= x(1) and x(0);
+CE <= x(1) and x(0);
+CLR <= not x(1) and not x(0) and not Start;
+R <= not x(1) and not x(0) and not Start;
+EDS <= not x(1) and not x(0) and not Start;
+EDD <= (x(1) and x(0)) or (not x(1) and not x(0) and not Start);
+muxD(3) <= '0';
+muxD(2) <= '0';
+muxD(1) <= (not x(1) and x(0)) or (x(1) and not x(0) and Start);
+muxD(0) <= (x(1) and x(0)) or (not x(1) and not x(0) and Start) or (not x(1) and x(0) and Bellow);
+
+mux: MUX2x1 port map(
+A => "0000",
+B => muxD,
+S => RST,
+Y => nextD);
 end arc_asm;

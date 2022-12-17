@@ -5,7 +5,7 @@ use ieee.std_logic_1164.all;
 --DONE!
 entity Data_Path is
 port(A, B: in std_logic_vector(3 downto 0);
-S, E1, E2, RST, CE, Clear, CLK: in std_logic;
+S, EDD, EDS, RST, CE, Clr, CLK: in std_logic;
 Hex0, Hex1, Hex4, Hex5: out std_logic_vector(7 downto 0);
 Q, R: out std_logic_vector(3 downto 0);
 Bellow: out std_logic);
@@ -59,13 +59,13 @@ Y => outmux);
 
 r1: Registry port map(
 D => outmux,
-E => E1,
+E => EDD,
 CLK => CLK,
 Q => outr1);
 
 r2: Registry port map(
 D => B,
-E => E2,
+E => EDS,
 CLK => CLK,
 Q => outr2);
 
@@ -90,7 +90,7 @@ R <= outr1;
 hex: decoderHex port map(
 Q => outcc,
 R => outr1,
-clear => Clear,
+clear => Clr,
 HEX0 => Hex0,
 HEX1 => Hex1, 
 HEX4 => Hex4, 

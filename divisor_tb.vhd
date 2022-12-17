@@ -11,13 +11,13 @@ ARCHITECTURE behavior OF divisor_tb IS
 -- Component Declaration for the Unit Under Test (UUT)
 COMPONENT divisor IS
 	Port( 
-		RESET : in STD_LOGIC;
-		CLK : in std_logic;
+		Rst : in STD_LOGIC;
+		Mclk : in std_logic;
 		Start: in std_logic;
-		Dividendo, Divis : in std_logic_vector(3 downto 0);
+		DV, DD : in std_logic_vector(3 downto 0);
 		Rdy : OUT STD_LOGIC;		
-		Quociente, Resto : out std_logic_vector(3 downto 0);
-		HEX0, HEX1, HEX4, HEX5 : out std_logic_vector(7 downto 0)
+		Q, R : out std_logic_vector(3 downto 0);
+		Hex0, Hex1, Hex4, Hex5 : out std_logic_vector(7 downto 0)
 		
 	);
 END COMPONENT;
@@ -37,18 +37,18 @@ BEGIN
 
 -- Instantiate the Unit Under Test (UUT)
 uut: divisor PORT MAP(
-	RESET => RESET,
-	CLK => CLK,
+	Rst => RESET,
+	Mclk => CLK,
 	Start => Start,
-	Dividendo => Dividendo,
-	Divis => Divis,
+	DD => Dividendo,
+	DV => Divis,
 	Rdy => Rdy,
-	Quociente => Quociente,
-	Resto => Resto,
-	HEX0 => HEX0,
-	HEX1 => HEX1,
-	HEX4 => HEX4,
-	HEX5 => HEX5
+	Q => Quociente,
+	R => Resto,
+	Hex0 => HEX0,
+	Hex1 => HEX1,
+	Hex4 => HEX4,
+	Hex5 => HEX5
 	
 	
 	
