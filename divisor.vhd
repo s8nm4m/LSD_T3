@@ -18,7 +18,7 @@ Q, R: out std_logic_vector(3 downto 0);
 Bellow: out std_logic);
 end component;
 
-component ASM_v1
+component ASM_L
 port(Start, Bellow, RST, CLK: in std_logic;
 S, EDD, EDS, R, CE, CLR, RDY: out std_logic);
 end component;
@@ -27,7 +27,7 @@ signal b, muxS, e1, e2, rCC, eCC, clear: std_logic;
 
 begin
 
-asm: ASM_v1 port map(
+asm: ASM_L port map(
 Start => Start,
 Bellow => b,
 RST =>Rst,
