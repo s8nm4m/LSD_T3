@@ -1,0 +1,589 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/simulation/modelsim
+Eadder
+Z1 w1672994536
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+R0
+Z4 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder.vhd
+Z5 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder.vhd
+l0
+L4 1
+V[28gl<clFlg8mQfYAK`AY0
+!s100 dK>m7RnE8AHWen?TQ_m4L0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1677841110
+!i10b 1
+Z8 !s108 1677841109.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder.vhd|
+Z10 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aarc_adder
+R2
+R3
+DEx4 work 5 adder 0 22 [28gl<clFlg8mQfYAK`AY0
+!i122 7
+l20
+L12 39
+VgCAXSDcL2Pm?iPgGZH3KG2
+!s100 6z6L78AH5Lg0dM]JT]lNE3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadder_subtractor
+R1
+R2
+R3
+!i122 6
+R0
+Z13 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder_subtractor.vhd
+Z14 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder_subtractor.vhd
+l0
+L4 1
+Vc3k>Q@NDlWbM_[JXcQ;K91
+!s100 Fh:jDmTmYL[l6G^:RlCec1
+R6
+31
+Z15 !s110 1677841109
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder_subtractor.vhd|
+Z17 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/adder_subtractor.vhd|
+!i113 1
+R11
+R12
+Aarc_as
+R2
+R3
+DEx4 work 16 adder_subtractor 0 22 c3k>Q@NDlWbM_[JXcQ;K91
+!i122 6
+l22
+Z18 L11 31
+V[h`]d[nElcCzBJR;BHP4L1
+!s100 03MK<1cBbdo3eTY8?:08d3
+R6
+31
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Easm_l
+R1
+R2
+R3
+!i122 0
+R0
+Z19 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/ASM_L.vhd
+Z20 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/ASM_L.vhd
+l0
+L4 1
+VK=LdFVm8jXTSOASeYbOGe0
+!s100 dzQGkhm8YMo3bT9>JK0mo0
+R6
+31
+Z21 !s110 1677841108
+!i10b 1
+Z22 !s108 1677841108.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/ASM_L.vhd|
+Z24 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/ASM_L.vhd|
+!i113 1
+R11
+R12
+Aarc_asm
+R2
+R3
+DEx4 work 5 asm_l 0 22 K=LdFVm8jXTSOASeYbOGe0
+!i122 0
+l25
+L9 42
+V1GF20^?WPflUcPIB1Pf:V2
+!s100 5AQj:<kXmdJb0<>CLH4:61
+R6
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Ebin2dec_int
+R1
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+!i122 10
+R0
+Z27 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/bin2dec_int.vhd
+Z28 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/bin2dec_int.vhd
+l0
+L6 1
+VCj6_La69ZAT4[nHN3_CPo0
+!s100 T8kAG64cc5oZm^IWlC:Qe1
+R6
+31
+R7
+!i10b 1
+Z29 !s108 1677841110.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/bin2dec_int.vhd|
+Z31 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/bin2dec_int.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R25
+R26
+R2
+R3
+DEx4 work 11 bin2dec_int 0 22 Cj6_La69ZAT4[nHN3_CPo0
+!i122 10
+l13
+R18
+Vb=GSSZU]1DhPIR=IkT9OW3
+!s100 <:<AzC<T?g<=gZ[_:aROb3
+R6
+31
+R7
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12
+Ecc
+R1
+R2
+R3
+!i122 5
+R0
+Z32 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/CC.vhd
+Z33 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/CC.vhd
+l0
+L5 1
+V[94PXh31O`7lBNZD1A9FC0
+!s100 9NNWfGTSCj7Sg]ST7e2mV1
+R6
+31
+R15
+!i10b 1
+R8
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/CC.vhd|
+Z35 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/CC.vhd|
+!i113 1
+R11
+R12
+Aarc_cc
+R2
+R3
+DEx4 work 2 cc 0 22 [94PXh31O`7lBNZD1A9FC0
+!i122 5
+l41
+L12 56
+VoDGj@l1G73ZSA2N:G8;[m1
+!s100 5Oa=Ba>UQRM:?_4YTPWP<0
+R6
+31
+R15
+!i10b 1
+R8
+R34
+R35
+!i113 1
+R11
+R12
+Edata_path
+R1
+R2
+R3
+!i122 11
+R0
+Z36 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Data_Path.vhd
+Z37 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Data_Path.vhd
+l0
+L6 1
+V5^@T2GA^7ZC<:mdCV4?nB0
+!s100 [nOn?Bio6FEmFgdFAV_l:3
+R6
+31
+R7
+!i10b 1
+R29
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Data_Path.vhd|
+Z39 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Data_Path.vhd|
+!i113 1
+R11
+R12
+Aarc_data
+R2
+R3
+DEx4 work 9 data_path 0 22 5^@T2GA^7ZC<:mdCV4?nB0
+!i122 11
+l52
+L14 87
+Vd]@?hKJBBQWZ?ciBch5?K3
+!s100 ;TNVH1Q_RX]IQ@>FLo4FW3
+R6
+31
+R7
+!i10b 1
+R29
+R38
+R39
+!i113 1
+R11
+R12
+Edecoderhex
+R1
+R2
+R3
+!i122 9
+R0
+Z40 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/decoderHex.vhd
+Z41 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/decoderHex.vhd
+l0
+L4 1
+VXDZ<eBCzP[P5m=81T`WDN2
+!s100 kZ:@<BKcU^YEb3V]YEg:^2
+R6
+31
+R7
+!i10b 1
+R29
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/decoderHex.vhd|
+Z43 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/decoderHex.vhd|
+!i113 1
+R11
+R12
+Alogicfuntion
+R2
+R3
+DEx4 work 10 decoderhex 0 22 XDZ<eBCzP[P5m=81T`WDN2
+!i122 9
+l38
+L12 46
+V[PZ?ZPYQHEk;McnJ<BFE82
+!s100 [AW`hO[`[m4c2jlG`aE^K1
+R6
+31
+R7
+!i10b 1
+R29
+R42
+R43
+!i113 1
+R11
+R12
+Edivisor
+R1
+R2
+R3
+!i122 13
+R0
+Z44 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/divisor.vhd
+Z45 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/divisor.vhd
+l0
+L4 1
+VN?CZZKN=40fCZ?=HoTAL70
+!s100 F2[;PUGoBWd=bQ;SdAV8a1
+R6
+31
+Z46 !s110 1677841111
+!i10b 1
+Z47 !s108 1677841111.000000
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/divisor.vhd|
+!s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/divisor.vhd|
+!i113 1
+R11
+R12
+Aarc_div
+R2
+R3
+DEx4 work 7 divisor 0 22 N?CZZKN=40fCZ?=HoTAL70
+!i122 13
+l28
+L12 50
+VfgdNiKchCMIgP]KTNgI1W1
+!s100 YA6KmzNA;e6e`hLBE5aa]3
+R6
+31
+R46
+!i10b 1
+R47
+R48
+Z49 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/divisor.vhd|
+!i113 1
+R11
+R12
+Effd
+R1
+R2
+R3
+!i122 12
+R0
+Z50 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/FFD.vhd
+Z51 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/FFD.vhd
+l0
+L4 1
+VlLnJhUY99`]7^:0M0ZT@z3
+!s100 7zIA7N0c8k?G4DH:]Q7>;3
+R6
+31
+R7
+!i10b 1
+R29
+Z52 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/FFD.vhd|
+Z53 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/FFD.vhd|
+!i113 1
+R11
+R12
+Alogicfunction
+R2
+R3
+DEx4 work 3 ffd 0 22 lLnJhUY99`]7^:0M0ZT@z3
+!i122 12
+l16
+L14 9
+VXLGJhA0YLNkWk3eiz=LFX0
+!s100 EbhLHDh93W5h:OfQP8>M81
+R6
+31
+R7
+!i10b 1
+R29
+R52
+R53
+!i113 1
+R11
+R12
+Efull_adder
+R1
+R2
+R3
+!i122 4
+R0
+Z54 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/full_adder.vhd
+Z55 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/full_adder.vhd
+l0
+L4 1
+V1?8e@Z?oo];B5ik63z<5?2
+!s100 2>nkmB_jW`<He?1n_RLb^2
+R6
+31
+R15
+!i10b 1
+R8
+Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/full_adder.vhd|
+Z57 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/full_adder.vhd|
+!i113 1
+R11
+R12
+Aarc_fa
+R2
+R3
+DEx4 work 10 full_adder 0 22 1?8e@Z?oo];B5ik63z<5?2
+!i122 4
+l10
+L9 5
+V3E:A;e?EmcK4l6JIUkJ5a3
+!s100 CPTbUhTiSZJkiQHake`U>2
+R6
+31
+R15
+!i10b 1
+R8
+R56
+R57
+!i113 1
+R11
+R12
+Eint7seg
+R1
+R2
+R3
+!i122 8
+R0
+Z58 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/int7seg.vhd
+Z59 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/int7seg.vhd
+l0
+L4 1
+V_cLR;_R9`8hZgb@8V9U_73
+!s100 AT@lQN65nQ=dI[E:C;nJF3
+R6
+31
+R7
+!i10b 1
+R29
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/int7seg.vhd|
+Z61 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/int7seg.vhd|
+!i113 1
+R11
+R12
+Alogicfunction
+R2
+R3
+DEx4 work 7 int7seg 0 22 _cLR;_R9`8hZgb@8V9U_73
+!i122 8
+l14
+L10 36
+VAG5K>g5BP;B?>BIB[o[@63
+!s100 kQ_P9koYMf1fIYB8bOezO1
+R6
+31
+R7
+!i10b 1
+R29
+R60
+R61
+!i113 1
+R11
+R12
+Emux2x1
+R1
+R2
+R3
+!i122 3
+R0
+Z62 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/MUX2x1.vhd
+Z63 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/MUX2x1.vhd
+l0
+L4 1
+VG3R8]18i]3eLK1ngz^Y;=0
+!s100 KJW7OzjElD@@f=Hl3mClA0
+R6
+31
+R15
+!i10b 1
+R8
+Z64 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/MUX2x1.vhd|
+Z65 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/MUX2x1.vhd|
+!i113 1
+R11
+R12
+Aarc_mux
+R2
+R3
+DEx4 work 6 mux2x1 0 22 G3R8]18i]3eLK1ngz^Y;=0
+!i122 3
+l11
+L10 7
+V^_R;XZ9@lLSZh]@lO:L5b2
+!s100 oa`RnifN@5MmUD`5^5m=m2
+R6
+31
+R15
+!i10b 1
+R8
+R64
+R65
+!i113 1
+R11
+R12
+Eregistry
+R1
+R2
+R3
+!i122 2
+R0
+Z66 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Registry.vhd
+Z67 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Registry.vhd
+l0
+L4 1
+V`kcm^AOI26o1^RBETR5Z72
+!s100 eB48`a5IYYT:>9C4]NDz[3
+R6
+31
+R15
+!i10b 1
+R8
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Registry.vhd|
+Z69 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Registry.vhd|
+!i113 1
+R11
+R12
+Aarc_reg
+R2
+R3
+DEx4 work 8 registry 0 22 `kcm^AOI26o1^RBETR5Z72
+!i122 2
+l22
+L11 46
+Vh3zcPUaGZ_9aZ3LmG[UJ?0
+!s100 Z36c9MATS<0OIYfRdm4L[3
+R6
+31
+R15
+!i10b 1
+R8
+R68
+R69
+!i113 1
+R11
+R12
+Eterminal_count
+R1
+R2
+R3
+!i122 1
+R0
+Z70 8C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Terminal_Count.vhd
+Z71 FC:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Terminal_Count.vhd
+l0
+L4 1
+V]K6J;X@Un3ea0J=b:Sga]1
+!s100 m70aK:g>^g_aT[KPl0kNc1
+R6
+31
+R15
+!i10b 1
+R22
+Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Terminal_Count.vhd|
+Z73 !s107 C:/Users/ammit/Desktop/ISEL/2223/LEIC/s1/LSD/Labs/Trab3/LSD_T3/Terminal_Count.vhd|
+!i113 1
+R11
+R12
+Aarc_tc
+R2
+R3
+DEx4 work 14 terminal_count 0 22 ]K6J;X@Un3ea0J=b:Sga]1
+!i122 1
+l11
+L10 4
+VIaQ_S46BaYd5];IhO_B6V1
+!s100 Y[J`FkfXPceKdWeLcF]iN2
+R6
+31
+R15
+!i10b 1
+R22
+R72
+R73
+!i113 1
+R11
+R12
